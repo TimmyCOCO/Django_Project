@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hero List</title>
+</head>
+<body>
+<span><a href="/">index</a></span>
+<hr>
+<ul>
+    {% for hero in herolist %}
+    <li>{{ hero.name }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
